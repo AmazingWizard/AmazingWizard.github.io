@@ -4,7 +4,7 @@ title: Printer Dashboard Using UD
 date: 2017-11-17
 ---
 
-![Credit: Max Wheeler]({% site.baseurl %}/public/img/2017-11-17-Printer-Dashboard-Using-UD--toner.jpg)
+![Credit: Max Wheeler]({{ /assets/img/2017-11-17-Printer-Dashboard-Using-UD--toner.jpg | absolute_url }})
 
 <cite>Credit: [Max Wheeler](https://www.flickr.com/photos/makenosound/2557531332)</cite>
 
