@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Printer Dashboard Using UD
-Date: 2017-11-17 23:21:25
+title: Printer Dashboard Pt 1 - Getting the Data
+Date: 2017-11-17 23:47:24
 ---
 
 ![]({{ site.baseurl }}/assets/img/2017-11-17-Printer-Dashboard-Using-UD--toner.jpg)
@@ -23,3 +23,5 @@ When all is said and done, we convert the array to JSON and output it to a file:
 ```PowerShell
 ConvertTo-Json -InputObject $Printers -Depth 4 | Out-File -FilePath $DataPath
 ```
+
+Getting the data is honestly the hardest part. I'll create a follow up post soon that will cover turning that data in to a dashboard using UD. 
