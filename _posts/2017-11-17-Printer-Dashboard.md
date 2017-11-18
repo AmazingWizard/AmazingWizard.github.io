@@ -14,7 +14,7 @@ After a short time of manually checking in on printer toner levels, I decided th
 
 So I started doing some research and figured PaperCut must be getting the toner information via <abbr title="Simple Network Management Protocol">SNMP</abbr>. After some reading, I found there is a Com Object that can be used to make SNMP calls, which can be used against printers. After much tinkering, I had a script that could pull printers from our print server, and loop through them making SNMP calls for toner levels. 
 
-{% highlight powershell %}
+``` Powershell
 
 # Com Object for making SNMP calls
 $SNMP = new-object -ComObject olePrn.OleSNMP
@@ -87,12 +87,12 @@ foreach ($Printer in $All_Printers) {
 
     $SNMP.Close()
 }
-{% EndHighlight %}
+```
 
 SNMP Is a magical nightmare of non-standardization, and some manufacturers are better about getting you the information you need vs others. Some places, like Ricoh, keep their SNMP OID information behind a paywall. So I basically got lucky with the HP printers I manage. However, that's not to say its simple or makes sense, as you can clearly see above. 
 
 When all is said and done, we convert the array to JSON and output it to a file:
 
-{% Highlight Powershell %}
+``` Powershell
 ConvertTo-Json -InputObject $Printers -Depth 4 | Out-File -FilePath $DataPath
-{% endHighlight %}
+```
