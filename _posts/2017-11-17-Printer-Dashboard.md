@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Printer Dashboard Using UD
+Date: 2017-11-17 23:21:25
 ---
 
 ![Credit: Max Wheeler]({{ /assets/img/2017-11-17-Printer-Dashboard-Using-UD--toner.jpg | absolute_url }})
