@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Printer Dashboard Pt 1 - Getting the Data
-date: 2017-11-17
+date: "2017-11-17"
 ---
 
 ![]({{ site.baseurl }}/assets/img/2017-11-17-Printer-Dashboard-Using-UD--toner.jpg)
