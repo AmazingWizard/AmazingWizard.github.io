@@ -20,6 +20,6 @@ SNMP Is a magical nightmare of non-standardization, and some manufacturers are b
 
 When all is said and done, we convert the array to JSON and output it to a file:
 
-``` ps1
+```ps1
 ConvertTo-Json -InputObject $Printers -Depth 4 | Out-File -FilePath $DataPath
 ```
