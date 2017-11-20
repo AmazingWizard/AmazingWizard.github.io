@@ -1,7 +1,7 @@
 ---
-Layout: Post
-Title: Weekend Hack - New-Blogpost.ps1
-Date: 2017-11-19
+layout: post
+title: Weekend Hack - New-Blogpost.ps1
+date: 2017-11-19
 ---
 
 I wanted to create a simple function that can be called quickly from my blog repository to generate a new blog post markdown file for this Github Pages Jekyll site. It also gave me a reason to try and use `System.Text.StringBuilder`. It seems like a nice way to build multi-line strings.

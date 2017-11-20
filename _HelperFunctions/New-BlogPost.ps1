@@ -35,9 +35,9 @@
 
         $Blog = New-Object -TypeName "System.Text.StringBuilder"
         [void]$Blog.Append("---`n") 
-        [void]$Blog.Append("Layout: Post`n")
-        [void]$Blog.Append("Title: $Name`n") 
-        [void]$Blog.Append("Date: $Date`n") 
+        [void]$Blog.Append("layout: Post`n")
+        [void]$Blog.Append("title: $Name`n") 
+        [void]$Blog.Append("date: $Date`n") 
         [void]$Blog.Append("---`n") 
         [void]$Blog.Append($Content)
         $Blog = $Blog.toString() 
