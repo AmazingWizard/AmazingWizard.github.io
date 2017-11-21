@@ -10,7 +10,7 @@ title:            'Pome.ro'
 tagline:          'Tom Pomeroy'
 description:      'A blog about Tech, Code, Games, and whatever else is in my head.'
 url:              https://pome.ro
-baseurl:          '/'
+baseurl:          /
 
 author:
   name:           'Tom Pomeroy'
