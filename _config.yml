@@ -9,7 +9,7 @@ permalink:        pretty
 title:            'Pome.ro'
 tagline:          'Tom Pomeroy'
 description:      'A blog about Tech, Code, Games, and whatever else is in my head.'
-url:              pome.ro
+url:              https://pome.ro
 baseurl:          /
 
 author:
