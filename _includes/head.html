@@ -33,6 +33,9 @@
   var themes = ["theme-base-0e","theme-base-0f","theme-base-0d","theme-base-0c","theme-base-0b","theme-base-0a","theme-base-09","theme-base-08",];
   var curTheme = themes[Math.floor(Math.random()*items.length)];
   var body = document.getElementsByTagName(body)
-  body.classList.add(curTheme)
+  
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    body.classList.add(curTheme)
+  });
   </script>
 </head>
