@@ -14,7 +14,7 @@ baseurl:          /
 
 author:
   name:           'Tom Pomeroy'
-  url:            https://github.com/AmazingWizard
+  url:            https://github.com/Pome-ro
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/AmazingWizard
+  repo:           https://github.com/Pome-ro
