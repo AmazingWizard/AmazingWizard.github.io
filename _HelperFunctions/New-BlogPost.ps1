@@ -35,7 +35,7 @@
 
         $Blog = New-Object -TypeName "System.Text.StringBuilder"
         [void]$Blog.Append("---`n") 
-        [void]$Blog.Append("layout: Post`n")
+        [void]$Blog.Append("layout: post`n")
         [void]$Blog.Append("title: $Name`n") 
         [void]$Blog.Append("date: $Date`n") 
         [void]$Blog.Append("---`n") 
