@@ -32,10 +32,11 @@
   <script>
   var themes = ["theme-base-0e","theme-base-0f","theme-base-0d","theme-base-0c","theme-base-0b","theme-base-0a","theme-base-09","theme-base-08",];
   var curTheme = themes[Math.floor(Math.random()*themes.length)];
-  var body = document.getElementsByTagName(body)
+  var theBody = document.getElementsByTagName("body")
   
   document.addEventListener("DOMContentLoaded", function(event) { 
-    body[0].classList.add(curTheme)
+    theBody[0].classList.add(curTheme)
+    console.log(theBody)
   });
   </script>
 </head>
