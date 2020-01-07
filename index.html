@@ -16,7 +16,7 @@ title: Home
 
     {{ post.content }}
 
-    <i><a href="#" alt="Catagory">🗃</a>:{{ post.catagory }}</i> | <i><a href="#" alt="tags">🏷</a> {% for tag in post.tags %}{{ tag }}{% endfor %}</i>
+    <i>Catagory:{{ post.category }}</i> | <i>Tags: {% for tag in post.tags %}{{ tag }}, {% endfor %}</i>
   </div>
   {% endfor %}
 </div>
