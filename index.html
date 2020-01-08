@@ -11,7 +11,7 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">Published By: <a herf="#">{{page.auther}}</a>, {{ post.date | date: '%B %d, %Y' }}</span>
+    <span class="post-date">Published By: <a herf="#">{{post.auther}}</a>, {{ post.date | date: '%B %d, %Y' }}</span>
     <span class="tags"><strong><span title="Categories">🗃️</span></strong> <i><a href="#">{{ post.category }}</a></i> <strong><span title="Tags">🏷️ </span></strong><i> {% for tag in post.tags %}<a href='#''>{{ tag }}</a> {% endfor %}</i></span>
     {{ post.content }}
 
