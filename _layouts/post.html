@@ -4,11 +4,11 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="footer">
-    <strong><span title="Categories">🗃️</span></strong> <i><a href="#">{{ post.category }}</a></i> <br>
-    <strong><span title="Tags">🏷️ </span></strong><i> {% for tag in post.tags %}<a href='#''>{{ tag }}</a>, {% endfor %}</i>
-  </span>
   <span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span>
+  <span class="tags">
+    <strong><span title="Categories">🗃️</span></strong> <i><a href="#">{{ page.category }}</a></i> <br>
+    <strong><span title="Tags">🏷️ </span></strong><i> {% for tag in page.tags %}<a href='#''>{{ tag }}</a>, {% endfor %}</i>
+  </span>
   {{ content }}
 </div>
 
