@@ -3,6 +3,13 @@
     margin-bottom: 1rem;
     display: block;
     text-align: right;
-    border-radius: 10pxl;
 }
 
+.tags a{
+    padding: 2pxl;
+    border-radius: 5pxl;
+}
+
+.tags a:hover{
+    text-decoration: none;
+}
