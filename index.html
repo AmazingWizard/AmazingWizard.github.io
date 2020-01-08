@@ -17,8 +17,8 @@ title: Home
     {{ post.content }}
     <span class="footer">
       <hr>
-      <strong><span title="Categories">🗃️:</span></strong> <i>{{ post.category }}</i> <br>
-      <strong><span title="Tags">🏷️:</span></strong><i> {% for tag in post.tags %}{{ tag }}, {% endfor %}</i>
+      <strong><span title="Categories">🗃️</span></strong> <i><a href="#">{{ post.category }}</a></i> <br>
+      <strong><span title="Tags">🏷️ </span></strong><i> {% for tag in post.tags %}<a href='#''>{{ tag }}</a>, {% endfor %}</i>
     </span>
 
   </div>
