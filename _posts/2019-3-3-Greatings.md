@@ -12,6 +12,7 @@ You might show up to the site and find it a totall shit show, thats my fault, I 
 
 Also, I'll note, spelling is optional here. I'm writing these posts and pages inside VS Code far away from my Grammerly extension that takes my addled brain's idea of WORDS and SPELLING and turns them into passable english language. 
 
-I'll do my best to dump the contents of a blog post into a google dock to spare you the mind horror that is my ability to spell words good, but I make no promises or guarantees. 
+I'll do my best to dump the contents of a blog post into a google doc to spare you the mind horror that is my ability to spell words good, but I make no promises or guarantees. 
 
+Later, 
 ✌️
