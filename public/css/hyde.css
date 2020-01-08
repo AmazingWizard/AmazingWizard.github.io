@@ -188,6 +188,10 @@ a.sidebar-nav-item:focus {
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
 }
+.theme-base-08 .tags a:hover {
+  color: white;
+  background-color: #ac4142;
+}
 
 /* Orange */
 .theme-base-09 .sidebar {
@@ -196,6 +200,10 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
+}
+.theme-base-09 .tags a:hover {
+  color: white;
+  background-color: #d28445;
 }
 
 /* Yellow */
@@ -206,6 +214,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
 }
+.theme-base-0a .tags a:hover {
+  color: white;
+  background-color: #f4bf75;
+}
 
 /* Green */
 .theme-base-0b .sidebar {
@@ -214,6 +226,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
+}
+.theme-base-0b .tags a:hover {
+  color: white;
+  background-color: #90a959;
 }
 
 /* Cyan */
@@ -224,6 +240,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0c .related-posts li a:hover {
   color: #75b5aa;
 }
+.theme-base-0c .tags a:hover {
+  color: white;
+  background-color: #75b5aa;
+}
 
 /* Blue */
 .theme-base-0d .sidebar {
@@ -232,6 +252,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
+}
+.theme-base-0d .tags a:hover {
+  color: white;
+  background-color: #6a9fb5;
 }
 
 /* Magenta */
@@ -242,6 +266,10 @@ a.sidebar-nav-item:focus {
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
 }
+.theme-base-0e .tags a:hover {
+  color: white;
+  background-color: #aa759f;
+}
 
 /* Brown */
 .theme-base-0f .sidebar {
@@ -250,4 +278,8 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+.theme-base-0f .tags a:hover {
+  color: white;
+  background-color: #8f5536;
 }
