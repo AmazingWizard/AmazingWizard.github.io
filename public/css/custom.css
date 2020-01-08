@@ -1,0 +1,10 @@
+@media (min-width: 48em) {
+    .footer {
+      font-size: 8px;
+    }
+  }
+  @media (min-width: 58em) {
+    .footer {
+      font-size: 10px;
+    }
+  }

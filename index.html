@@ -15,10 +15,12 @@ title: Home
     <span class="post-date">{{ post.date | date: '%B %d, %Y' }}</span>
 
     {{ post.content }}
-    
-    <hr>
-    <strong><span title="Categories">🗃️:</span></strong> <i>{{ post.category }}</i> <br>
-    <strong><span title="Tags">🏷️:</span></strong><i> {% for tag in post.tags %}{{ tag }}, {% endfor %}</i>
+    <span class="footer">
+      <hr>
+      <strong><span title="Categories">🗃️:</span></strong> <i>{{ post.category }}</i> <br>
+      <strong><span title="Tags">🏷️:</span></strong><i> {% for tag in post.tags %}{{ tag }}, {% endfor %}</i>
+    </span>
+
   </div>
   {% endfor %}
 </div>
