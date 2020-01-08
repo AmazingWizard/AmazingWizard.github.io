@@ -16,4 +16,4 @@ Marcus Moor is a character/faction in my game of DND. My players have yet to enc
 ![Marcus Moor Statblock](/assets/img/2020-1-7-marcusmoor/marcusmoor.png)
 The concept is that in Combat you would have many NPCs with the Marcus Moor actions attached to them. They would have their normal actions per their statblock -- Assassins would have Sneak Attack, Apprentice Wizards would still have spell casting -- but they would also have these abilities. You can use the Marcus Moor skills to ensure all the NPCs get a chance to stand and fight the party, and when they get damaged, swap them with a healthy NPC. You want to play up the mystery surrounding Marcus Moor. Is Marcus a shapeshifter? Could Marcus be some kind of god walking among us? Who can say! 
 
-Happy DMing!
+✌️
