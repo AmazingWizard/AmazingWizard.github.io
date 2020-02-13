@@ -13,7 +13,7 @@ title: Home
     </h1>
     <span class="post-date">Published By: <a herf="#">{{post.auther}}</a>, {{ post.date | date: '%B %d, %Y' }}</span>
     <span class="tags">
-      {% for tag in page.category %}<a href='/category/{{ tag }}'>{{ tag }}</a>{% endfor %}</i>
+      {% for tag in post.category %}<a href='/category/{{ tag }}'>{{ tag }}</a>{% endfor %}</i>
     </span>
     {{ post.content }}
 
