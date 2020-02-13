@@ -23,3 +23,16 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/Pome-ro
+
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
