@@ -3,8 +3,8 @@ layout: post
 title: Greatings!
 date: 2019-3-3
 auther: Tom
-tags: [Hello World]
-category: General
+categories: 
+    - "General"
 ---
 Hey, I'm Tom. I do IT Work in the EDU space, im super keen on coding and programing, knee deep into the hobby that is D&D, and getting my feet wet with 3D Printing. You can find a mix of all those things here in my small corner of the internet.
 
