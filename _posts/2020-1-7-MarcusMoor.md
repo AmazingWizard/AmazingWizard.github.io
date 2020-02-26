@@ -3,7 +3,7 @@ layout: post
 title: Who is Marcus Moor?
 date: 2020-1-7
 auther: Tom
-category:
+categories:
     - "dnd"
     - "world-building"
 ---

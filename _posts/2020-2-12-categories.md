@@ -3,7 +3,7 @@ layout: post
 title: A hack a day...
 date: 2020-1-7
 auther: Tom
-category:
+categories:
     - "coding"
     - "general"
 ---
