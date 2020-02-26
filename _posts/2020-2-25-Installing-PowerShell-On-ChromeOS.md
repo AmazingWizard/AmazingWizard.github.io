@@ -8,17 +8,15 @@ categories:
     - "answers"
     - "powershell"
 ---
-
-# Installing Powershell on Chromebook
 Was trying to figure out how to install Powershell on Linux for Chromebooks
 
 ## URLs
- - https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/
- - https://kmyers.me/blog/chromeos/installing-microsoft-powershell-on-chrome-os-with-project-crostini/
+ - [https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/](https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/)
+ - [https://kmyers.me/blog/chromeos/installing-microsoft-powershell-on-chrome-os-with-project-crostini/](https://kmyers.me/blog/chromeos/installing-microsoft-powershell-on-chrome-os-with-project-crostini/)
 
 ## Archive of Reddit Comment:
 ### Comment URL
-https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/ecfuilh?utm_source=share&utm_medium=web2x
+[https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/ecfuilh?utm_source=share&utm_medium=web2x](https://www.reddit.com/r/Crostini/comments/90ycnq/install_current_release_of_powershell/ecfuilh?utm_source=share&utm_medium=web2x)
 ### Posted by: [/u/toalysium](https://www.reddit.com/user/toalysium/)
 
 In case someone else has this issue more recently: I first tried the official instructions for Ubuntu 18.04 and then found this page. I then followed u/KeithIMeyers guide and it almost worked, but... It threw up the exact same dependency errors as the official version. Looking at the pwsh github page it appears as though that's a common problem when new versions of the dependency are released and installed, but maybe not pushed to the .deb?
