@@ -6,7 +6,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">Published By: <a herf="#">{{page.auther}}</a>, {{ page.date | date: '%B %d, %Y' }}</span>
   <span class="tags">
-    {% for tag in page.category %}<a href='/category/{{ tag }}'>{{ tag }}</a>{% endfor %}</i>
+    {% for tag in page.categories %}<a href='/category/{{ tag }}'>{{ tag }}</a>{% endfor %}</i>
   </span>
   {{ content }}
 </div>
@@ -26,3 +26,4 @@ layout: default
       {% endif %}
   {% endfor %}
 </div>
+
