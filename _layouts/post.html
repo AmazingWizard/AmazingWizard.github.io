@@ -13,7 +13,7 @@ layout: default
 
 <div class="related">
 
-<h1>You May Also Enjoy</h1>
+<h2>You May Also Enjoy</h2>
 
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  2 %}
@@ -28,7 +28,7 @@ layout: default
       {% if post.url != page.url %}
         {% if page.categories contains category %}
           {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">#{{ category }}</span> {% endcapture %}
+          {% capture tagmarkup %} <span class="tags">#{{ category }}</span> {% endcapture %}
           {% assign commonTags = commonTags | append: tagmarkup %}
         {% endif %}
       {% endif %}
@@ -36,7 +36,7 @@ layout: default
 
     {% if sameTagCount >= minCommonTags %}
       <div>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}[{{ commonTags }}]</a></h5>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} {{ commonTags }}</a></h5>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
