@@ -4,8 +4,8 @@ title: Building the site with PSake
 date: 2020-2-26
 auther: Tom
 categories:
-    - "PowerShell"
-    - "Coding"
+    - "powershell"
+    - "coding"
 ---
 
 So I've not only installed VS Code on my **ASUS C434T Chromebook** but I've also managed to install PowerShell Core on said Chromebook. See my previous post for details. 
