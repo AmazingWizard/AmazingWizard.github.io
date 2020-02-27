@@ -15,7 +15,7 @@
         # Categories
         [Parameter()]
         [String[]]
-        $Categories = "General",
+        $Categories = "general",
         # content
         [Parameter()]
         [string]
@@ -49,6 +49,7 @@
         [void]$Blog.Append("auther: $Auther`n")
         [void]$Blog.Append("categories:`n")
         ForEach ($item in $categories){
+            $item = $item.tolower()
             [void]$Blog.Append("    - `"$item`"`n")
         }
         [void]$Blog.Append("---`n") 
