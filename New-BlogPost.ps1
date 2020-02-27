@@ -8,6 +8,14 @@
         [Parameter()]
         [String]
         $Date = (Get-Date -Format yyyy-M-d),
+        # auther
+        [Parameter()]
+        [string]
+        $Auther = "Tom",
+        # Categories
+        [Parameter()]
+        [String[]]
+        $Categories = "General",
         # content
         [Parameter()]
         [string]
@@ -37,10 +45,15 @@
         [void]$Blog.Append("---`n") 
         [void]$Blog.Append("layout: post`n")
         [void]$Blog.Append("title: $Name`n") 
-        [void]$Blog.Append("date: $Date`n") 
+        [void]$Blog.Append("date: $Date`n")
+        [void]$Blog.Append("auther: $Auther`n")
+        [void]$Blog.Append("categories:`n")
+        ForEach ($item in $categories){
+            [void]$Blog.Append("    - `"$item`"`n")
+        }
         [void]$Blog.Append("---`n") 
         [void]$Blog.Append($Content)
-        $Blog = $Blog.toString() 
+        $Blog = $Blog.toString()
 
         $NewBlogPath = Join-Path -ChildPath $FileName -Path $Path
 
